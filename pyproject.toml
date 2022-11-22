@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "domasshka-ex"
+version = "0.1.0"
+description = ""
+authors = ["IvanShkvyr <Gis2011I@gmail.com>"]
+readme = "README.md"
+packages = [{include = "domasshka_ex"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^15.3.2"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
